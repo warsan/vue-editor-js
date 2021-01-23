@@ -1,6 +1,6 @@
 /*
  * NOTE:
- *   This file is plugin stub for main.js
+ *   Этот файл является заглушкой для main.js
  */
 
 import Vue from 'vue'
@@ -10,7 +10,7 @@ Vue.use(plugin)
 
 /*
  * NOTE:
- *   If you want Vue instance of main.js to import something in your plugin as a Vue option,
- *   you need to export it here.
+ *   Если вы хотите, чтобы экземпляр Vue из main.js импортировал что-то в ваш плагин как параметр Vue, 
+ * * вам нужно экспортировать это здесь.
  */
 export default plugin
