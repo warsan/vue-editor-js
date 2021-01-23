@@ -3,23 +3,23 @@
 [![Wallaby.js](https://img.shields.io/badge/wallaby.js-powered-blue.svg?style=for-the-badge&logo=github)](https://wallabyjs.com/oss/)
 
 
-vue-editor-js is editorjs wrapper component.
+vue-editor-js - это компонент-оболочка editorjs.
 
-Please review this first. https://editorjs.io/
+Пожалуйста, прочтите это в первую очередь. https://editorjs.io/
 
-## For before 2.0.0 version users.
+## Для пользователей до версии 2.0.0.
 
-This plugins is a wrapper component for editorjs.
-If you need to use the plugin for editor.js then import it and set the config property.
+Эти плагины являются компонентом-оболочкой для editorjs.
+Если вам нужно использовать плагин для editor.js, импортируйте его и установите свойство config.
 
-Please See the [Demo.vue](https://github.com/ChangJoo-Park/vue-editor-js/blob/master/demo/Demo.vue)
+Пожалуйста, посмотрите [Demo.vue](https://github.com/ChangJoo-Park/vue-editor-js/blob/master/demo/Demo.vue)
 
 
-## For before 1.0.0 version users.
+## Для пользователей до версии 1.0.0.
 
-Please use `Vue.use` vue-editor-js in main.js.
+Пожалуйста, используйте `Vue.use` vue-editor-js в main.js.
 
-## Supported Plugins
+## Поддерживаемые плагины
 
 - [Personality](https://github.com/editor-js/personality)
 - [Header](https://github.com/editor-js/header)
