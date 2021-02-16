@@ -157,26 +157,26 @@ export default {
                 {
                     "type" : "header",
                     "data" : {
-                        "text" : "What does it mean clean data output",
+                        "text" : "Что значит чистый вывод данных",
                         "level" : 3
                     }
                 },
                 {
                     "type" : "paragraph",
                     "data" : {
-                        "text" : "Classic WYSIWYG-editors produce raw HTML-markup with both content data and content appearance. On the contrary, Editor.js outputs JSON object with data of each Block. You can see an example below"
+                        "text" : "Классические WYSIWYG-редакторы создают необработанную HTML-разметку как с данными контента, так и с внешним видом контента. Напротив, Editor.js выводит объект JSON с данными каждого блока. Вы можете увидеть пример ниже"
                     }
                 },
                 {
                     "type" : "paragraph",
                     "data" : {
-                        "text" : "Given data can be used as you want: render with HTML for <code class=\"inline-code\">Web clients</code>, render natively for <code class=\"inline-code\">mobile apps</code>, create markup for <code class=\"inline-code\">Facebook Instant Articles</code> or <code class=\"inline-code\">Google AMP</code>, generate an <code class=\"inline-code\">audio version</code> and so on."
+                        "text" : "Эти данные можно использовать как угодно: render with HTML for <code class=\"inline-code\">Web clients</code>, render natively for <code class=\"inline-code\">mobile apps</code>, create markup for <code class=\"inline-code\">Facebook Instant Articles</code> or <code class=\"inline-code\">Google AMP</code>, generate an <code class=\"inline-code\">audio version</code> and so on."
                     }
                 },
                 {
                     "type" : "paragraph",
                     "data" : {
-                        "text" : "Clean data is useful to sanitize, validate and process on the backend."
+                        "text" : "Чистые данные полезны для дезинфекции, проверки и обработки на сервере."
                     }
                 },
                 {
@@ -186,7 +186,7 @@ export default {
                 {
                     "type" : "paragraph",
                     "data" : {
-                        "text" : "We have been working on this project more than three years. Several large media projects help us to test and debug the Editor, to make it's core more stable. At the same time we significantly improved the API. Now, it can be used to create any plugin for any task. Hope you enjoy. 😏"
+                        "text" : "Мы работаем над этим проектом более трех лет. Несколько крупных медиа-проектов помогают нам тестировать и отлаживать редактор, чтобы сделать его ядро ​​более стабильным. В то же время мы значительно улучшили API. Теперь с его помощью можно создать любой плагин для любой задачи. Надеемся, вам понравится. 😏"
                     }
                 },
                 {
