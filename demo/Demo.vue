@@ -29,7 +29,7 @@ export default {
           header: {
             class: Header,
             config: {
-              placeholder: 'Enter a header',
+              placeholder: 'Введите заголовок',
               levels: [2, 3, 4],
               defaultLevel: 3,
             }
@@ -74,8 +74,8 @@ export default {
             inlineToolbar: true,
             shortcut: 'CMD+SHIFT+W',
             config: {
-              titlePlaceholder: 'Title',
-              messagePlaceholder: 'Message',
+              titlePlaceholder: 'Заголовок',
+              messagePlaceholder: 'Сообщение',
             },
           },
           raw: RawTool,
@@ -84,8 +84,8 @@ export default {
             inlineToolbar: true,
             shortcut: 'CMD+SHIFT+O',
             config: {
-              quotePlaceholder: 'Enter a quote',
-              captionPlaceholder: 'Quote\'s author',
+              quotePlaceholder: 'Введите цитату',
+              captionPlaceholder: 'Цитата автора',
             },
           },
           inlineCode: {
@@ -99,7 +99,7 @@ export default {
           console.log('on ready')
         },
         onChange: (args) => {
-          console.log('Now I know that Editor\'s content changed!')
+          console.log('Теперь я знаю, что содержание редактора изменилось!')
         },
         data: {
             "time": 1591362820044,
@@ -114,13 +114,13 @@ export default {
                 {
                     "type" : "paragraph",
                     "data" : {
-                        "text" : "Hey. Meet the new Editor. On this page you can see it in action — try to edit this text."
+                        "text" : "Привет. Встречайте новый редактор. На этой странице вы можете увидеть его в действии - попробуйте отредактировать этот текст."
                     }
                 },
                 {
                     "type" : "header",
                     "data" : {
-                        "text" : "Key features",
+                        "text" : "Ключевая особенность",
                         "level" : 3
                     }
                 },
@@ -129,23 +129,23 @@ export default {
                     "data" : {
                         "style" : "unordered",
                         "items" : [
-                            "It is a block-styled editor",
-                            "It returns clean data output in JSON",
-                            "Designed to be extendable and pluggable with a simple API"
+                            "Это редактор в блочном стиле.",
+                            "Возвращает чистый вывод данных в JSON",
+                            "Разработан с возможностью расширения и подключения с помощью простого API"
                         ]
                     }
                 },
                 {
                     "type" : "header",
                     "data" : {
-                        "text" : "What does it mean «block-styled editor»",
+                        "text" : "Что значит «блочный редактор»",
                         "level" : 3
                     }
                 },
                 {
                     "type" : "paragraph",
                     "data" : {
-                        "text" : "Workspace in classic editors is made of a single contenteditable element, used to create different HTML markups. Editor.js <mark class=\"cdx-marker\">workspace consists of separate Blocks: paragraphs, headings, images, lists, quotes, etc</mark>. Each of them is an independent contenteditable element (or more complex structure) provided by Plugin and united by Editor's Core."
+                        "text" : "Рабочее пространство в классических редакторах состоит из одного контентного элемента, используемого для создания различных HTML-разметок. Editor.js <mark class=\"cdx-marker\">рабочая область состоит из отдельных блоков: paragraphs, headings, images, lists, quotes, etc</mark>. Каждый из них представляет собой независимый контентный элемент (или более сложную структуру), предоставляемый Плагином и объединенный Ядром редактора."
                     }
                 },
                 {
